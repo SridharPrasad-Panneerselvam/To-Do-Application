@@ -1,0 +1,9 @@
+<!-- html for textarea -->
+<textarea
+  [(ngModel)]="contentValue"
+  (ngModelChange)="updateTaskDescription($event)"
+  placeholder="Add description..."
+  class="description"
+  rows="8"
+  cols="50"
+></textarea>

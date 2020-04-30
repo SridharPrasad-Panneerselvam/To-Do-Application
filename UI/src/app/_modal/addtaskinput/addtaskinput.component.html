@@ -1,0 +1,9 @@
+<input
+  class="{{ className }}"
+  [(ngModel)]="contentValue"
+  (ngModelChange)="updateTaskContent($event)"
+  type="search"
+  name="addTask"
+  placeholder="Add task.."
+  required
+/>
